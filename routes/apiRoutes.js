@@ -13,12 +13,12 @@ module.exports = (app) => {
     app.post("/api/notes", (req, data) => {
         const id = (db.length + 1).toString();
         
-        const newData = {
+        const newNote = {
             ...req.body,
             id: id
         };
         
-        db.push(newData);
+        db.push(newNote);
         
         data.json(db);
     });
@@ -26,8 +26,8 @@ module.exports = (app) => {
     app.delete("/api/notes/:id", (req, data) => {
 
        const id = (req.params.id).toString();
-       const test=db.filter(x => {return x.id != id });
-        db = test;
+       const filter=db.filter(x => {return x.id != id });
+        db = filter;
         return data.json(db);
     });
 }
