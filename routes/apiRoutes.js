@@ -9,7 +9,7 @@ module.exports = (app) => {
         return data.json(db);
     });
 
-    // post route for api/notes 
+    // post route for api/notes
     app.post("/api/notes", (req, data) => {
         const id = (db.length + 1).toString();
         
@@ -22,7 +22,6 @@ module.exports = (app) => {
         
         data.json(db);
     });
-// Deletes notes from the array using filter method
     app.delete("/api/notes/:id", (req, data) => {
 
        const id = (req.params.id).toString();
