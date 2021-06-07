@@ -16,7 +16,7 @@
 
   ### Link to deployed page
 
-  
+  https://stevesnyder.github.io/note-taker/
 
   ## Important Commands
 
