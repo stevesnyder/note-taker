@@ -1,5 +1,10 @@
 # Note Taker
 
+
+https://user-images.githubusercontent.com/74982034/121103434-f0605400-c7cd-11eb-9f07-8d340ae3fb77.mp4
+
+
+
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
@@ -13,10 +18,6 @@
   ## About the Project
 
   Application that can be used to write and save notes.
-
-  ### Link to deployed page
-
-  https://stevesnyder.github.io/note-taker/
 
   ## Important Commands
 
